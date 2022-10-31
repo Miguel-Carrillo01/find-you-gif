@@ -1,0 +1,41 @@
+
+body{
+    background-color: #000000;
+    margin: 2rem;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    background-color: #e7baba;
+    border-radius: 20px;
+}
+.card{
+    height: 40rem;
+    margin:auto;
+}
+.name {
+    color: rgb(0, 0, 0);
+}
+.img {
+    border-radius: 20px;
+}
+
+.filter{
+    display: none;
+}
+
+#search{
+    background: #e7baba;
+    border-radius: 20px;
+    border-color: rgb(255, 255, 255);
+    margin: 2rem;
+    width: 97%;
+}
+
+::placeholder{
+    display: flex;
+    text-align: center;
+    color: black;
+}
